@@ -1,6 +1,6 @@
 # sync-ammo
 
-* Synchronize version ammo.js and ESM version ammo.js .
+* Synchronize version ammo.js and ESM version ammo.js
 * 同步执行的 ammo.js 物理库, 支持 UMD 引入和 ESM 导入
 
 ## UMD 引入
