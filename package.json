@@ -7,7 +7,9 @@
     "build": "rollup -c"
   },
   "type": "module",
-  "author": "carl-lance",
+  "author": {
+    "name": "carl-lance"
+  },
   "license": "ISC",
   "devDependencies": {
     "rollup": "^4.14.1",
@@ -17,6 +19,15 @@
     "rollup-plugin-copy": "^3.5.0"
   },
   "repository": {
+    "type": "git",
     "url": "https://github.com/carl-lance/sync-ammo.git"
+  },
+  "homepage": "https://github.com/carl-lance/sync-ammo",
+  "bugs": {
+    "url": "https://github.com/carl-lance/sync-ammo/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "provenance": true
   }
 }
