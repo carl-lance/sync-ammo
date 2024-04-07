@@ -2,7 +2,8 @@
   "name": "sync-ammo",
   "version": "0.1.0",
   "description": "同步版本 Ammo.js",
-  "main": "ammo.js",
+  "main": "./dist/ammo.js",
+  "module":"./dist/ammo.module.js",
   "scripts": {
     "build": "rollup -c"
   },
