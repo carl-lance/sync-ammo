@@ -4,15 +4,16 @@
   "description": "同步版本 Ammo.js",
   "main": "ammo.js",
   "scripts": {
-    "test": "rollup -c"
+    "build": "rollup -c"
   },
   "type": "module",
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "rollup": "^4.14.1",
     "@rollup/plugin-commonjs": "^25.0.1",
     "@rollup/plugin-node-resolve": "^15.1.0",
-    "@rollup/plugin-terser": "^0.4.3"
+    "@rollup/plugin-terser": "^0.4.3",
+    "rollup-plugin-copy": "^3.5.0"
   }
 }
