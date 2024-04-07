@@ -13,7 +13,8 @@ export default {
             targets:[
                 {
                     src: 'src/index.d.ts',
-                    dest: 'dist'
+                    dest: 'dist',
+                    rename: 'ammo.d.ts'
                 }
             ]
         })
