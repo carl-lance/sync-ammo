@@ -28,3 +28,29 @@ import Ammo from 'dist/ammo.module.js';
 const vec3 = new Ammo.btVector3();
 
 ```
+
+## 使用示例
+
+```javascript
+// Sets the collision type of the physics engine - software and rigid body collision
+const collisionConfiguration = new Ammo.btSoftBodyRigidBodyCollisionConfiguration();
+// dispatcher is referenced by the collision detection algorithm allocator
+const dispatcher = new Ammo.btCollisionDispatcher( collisionConfiguration );
+      
+// The collision rough measurement method interface
+const broadphase = new Ammo.btDbvtBroadphase();
+        
+// Configuration constraint Solver - (Sequence pulse constraint Solver)
+// Make objects interact correctly, taking into account gravity, forces, collisions, etc
+const solver = new Ammo.btSequentialImpulseConstraintSolver();
+// Configuration Constraint Solver - (Software Constraint Solver)
+const softBodySolver = new Ammo.btDefaultSoftBodySolver();
+
+// Create a software-enabled, rigid physical world
+physicsWorld = new Ammo.btSoftRigidDynamicsWorld( dispatcher, broadphase, solver, collisionConfiguration, softBodySolver );
+
+// Set the gravity of the physical world
+physicsWorld.setGravity( new Ammo.btVector3( 0, -9.8, 0 ) );
+physicsWorld.getWorldInfo().set_m_gravity( new Ammo.btVector3( 0, -9.8, 0 ) );
+
+```
