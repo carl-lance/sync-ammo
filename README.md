@@ -3,6 +3,9 @@
 * Synchronize version ammo.js and ESM version ammo.js
 * 同步执行的 ammo.js 物理库, 支持 UMD 引入和 ESM 导入
 
+* 基于[ammo.js](https://github.com/kripken/ammo.js) 修改
+* Modified based on [ammo.js](https://github.com/kripken/ammo.js)
+
 ## UMD 引入
 
 ```javascript
