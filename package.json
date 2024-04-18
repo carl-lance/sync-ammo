@@ -34,6 +34,8 @@
   "keywords": [
     "ammo.js",
     "physics",
-    "bullet"
+    "bullet",
+    "three.js",
+    "3d"
   ]
 }
