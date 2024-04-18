@@ -1,7 +1,7 @@
 {
   "name": "sync-ammo",
   "version": "0.1.1",
-  "description": "同步版本 Ammo.js ",
+  "description": "Synchronized version Ammo physical library",
   "main": "./dist/ammo.js",
   "module":"./dist/ammo.module.js",
   "scripts": {
@@ -30,5 +30,10 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "provenance": true
-  }
+  },
+  "keywords": [
+    "ammo.js",
+    "physics",
+    "bullet"
+  ]
 }
