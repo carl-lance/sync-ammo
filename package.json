@@ -1,6 +1,6 @@
 {
   "name": "sync-ammo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Synchronized version Ammo physical library",
   "main": "./dist/ammo.js",
   "module":"./dist/ammo.module.js",
